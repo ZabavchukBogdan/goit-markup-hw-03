@@ -335,7 +335,7 @@ h1, h2, h3, ul, p {
 
 .logo-text {
     font-style: normal;
-    color: #F4F4FD; 
+    color: var(--secondary-bg-color); 
 }
 
 .logo,
@@ -436,7 +436,7 @@ h1, h2, h3, ul, p {
 }
 
 .gallery-border {
-    border: 0.5px solid #F4F4FD;
+    border: 0.5px solid var(--secondary-bg-color);
     border-top: 0px;
     padding: 32px 16px;
 }
