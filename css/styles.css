@@ -275,6 +275,9 @@ h1, h2, h3, ul, p {
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.team-box {
+    padding: 32px 0px;
+}
 
 .team-title {
     margin-bottom: 72px;
@@ -290,8 +293,6 @@ h1, h2, h3, ul, p {
 }
 
 .team-titles {
-    margin-top: 32px;
-
     font-family: inherit;
     font-weight: 600;
     font-size: 20px;
@@ -306,7 +307,6 @@ h1, h2, h3, ul, p {
 .specialty {
     
     margin-top: 8px;
-    padding-bottom: 32px;
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
@@ -378,7 +378,6 @@ h1, h2, h3, ul, p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
     margin-bottom: 72px;
     
 }
@@ -439,7 +438,7 @@ h1, h2, h3, ul, p {
 .gallery-border {
     border: 0.5px solid #F4F4FD;
     border-top: 0px;
-   
+    padding: 32px 16px;
 }
 
 .gallery-list > .item {
@@ -451,9 +450,6 @@ h1, h2, h3, ul, p {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .gallery-title {
-    padding-top: 32px;
-    padding-left: 16px;
-
     font-family: inherit;
     font-weight: 600;
     font-size: 20px;
@@ -465,8 +461,7 @@ h1, h2, h3, ul, p {
 
 .gallery-product {
     margin-top: 8px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+   
 
     font-family: inherit;
     font-size: 16px;
